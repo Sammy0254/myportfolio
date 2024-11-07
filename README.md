@@ -34,7 +34,35 @@ Check out the live demo of the website: [Isabella's Portfolio]([https://yourwebs
 - **Boxicons**: For icons used throughout the site.
 - **Google Fonts**: For typography styling.
 
-## Project Structure
 
-The main project files are organized as follows:
+## Getting Started
+
+To view and edit this project locally:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Sammy0254/myportfolio.git
+    cd portfolio-website
+    ```
+
+2. **Open `index.html`** in a web browser to view the website.
+
+3. **Set up EmailJS** for the contact form:
+    - Sign up for an [EmailJS account](https://www.emailjs.com/).
+    - Add your user ID in the `<script>` section of `index.html` to initialize EmailJS:
+      ```javascript
+      emailjs.init("YOUR_USER_ID");
+      ```
+    - Configure the email service, template, and recipient in your EmailJS dashboard.
+
+## Contact
+
+Feel free to reach out if you have questions or feedback!
+
+**Author**: [Samwel Mpuyuk](https://github.com/Sammy0254)  
+**Email**: mpuyuksamwel@gmail.com   
+
+---
+
+**Note**: This project is for demonstration purposes and highlights my skills in front-end web development, EmailJS integration, and responsive design.
 
